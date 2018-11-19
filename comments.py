@@ -24,3 +24,4 @@ class Comments:
 		return edit_comment
 	else:
 		return False
+		
