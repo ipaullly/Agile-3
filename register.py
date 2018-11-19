@@ -32,7 +32,7 @@ class Register(object):
         for user in data:
             if user['id'] == userid:
                 user["role"] = "Moderator"
-            return "Not a user in this system"
+            return "Not a user in the system"
         return "User role updated"
 
     def admin(self, userid):
