@@ -6,7 +6,7 @@ class Comments:
 		self.db = comments
 
 
-	def create_comments(self, message, timestamp, author):
+	def create_comments(self, message, author):
 
 		payload = {
 			"id": len(self.db)+1,
